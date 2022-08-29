@@ -1,0 +1,125 @@
+.dNone {
+  display: none;
+}
+
+input {
+  width: 70px;
+  height: 70px;
+  margin: 0 0.6rem;
+  font-size: 2rem;
+  text-align: center;
+  color: yellow;
+}
+
+@media only screen and (max-width: 576px) {
+  input {
+    background: transparent;
+    width: 25px;
+    height: 25px;
+    margin: 0 0.2rem;
+    font-size: 1.6rem;
+  }
+}
+
+body {
+  background: black;
+}
+
+body header {
+  background: lightgrey;
+  padding: 2rem;
+}
+
+body header #btn {
+  width: 200px;
+  height: 70px;
+}
+
+body main {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+@media only screen and (max-width: 576px) {
+  body main #badCharsMobile {
+    position: absolute;
+    top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  body main #badCharsMobile span {
+    color: red;
+    font-size: 1.4rem;
+  }
+}
+
+body main .win {
+  color: greenyellow;
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+body main .lost {
+  color: red;
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+body main .endText {
+  color: white;
+  font-size: 1.2rem;
+}
+
+body main .endText span {
+  color: yellow;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+body main .badChar {
+  color: white;
+  font-size: 1.4rem;
+}
+
+body main .badChar span {
+  font-size: 3rem;
+  color: red;
+}
+
+body main #checkWrapper {
+  width: 300px;
+  position: relative;
+}
+
+body main #checkWrapper #badChars {
+  color: red;
+  position: absolute;
+  left: 260px;
+  font-size: 3rem;
+}
+
+body main #checkWrapper input {
+  width: 100px;
+  height: 100px;
+  font-size: 5rem;
+}
+
+@media only screen and (max-width: 576px) {
+  body main #checkWrapper input {
+    width: 50px;
+    height: 50px;
+    font-size: 3rem;
+  }
+}
+
+body main #checkWrapper #check {
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-size: 1.4rem;
+}
+/*# sourceMappingURL=style.css.map */
