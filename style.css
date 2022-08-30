@@ -24,14 +24,12 @@ body main {
   position: relative;
 }
 
-body main #word input {
-  -webkit-appearance: none;
+body main #word {
+  background: white;
 }
 
-@media only screen and (max-width: 576px) {
-  body main #word input {
-    border: white;
-  }
+body main #word input {
+  -webkit-appearance: none;
 }
 
 @media only screen and (max-width: 576px) {
