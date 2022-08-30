@@ -28,7 +28,7 @@ body {
     position: relative;
 
     #word {
-      input {
+      input[type="text"] {
           width: 70px;
           height: 70px;
           margin: 0 0.6rem;
