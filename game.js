@@ -48,7 +48,7 @@ btn.addEventListener("click", () => {
       input.id = i;
       input.setAttribute("name", element);
       input.disabled = true;
-      input.value.style
+      input.value.style;
 
       if (char === element) {
         input.setAttribute("value", element);
@@ -63,7 +63,8 @@ btn.addEventListener("click", () => {
 check.addEventListener("click", () => {
   randWord = localStorage.getItem("word");
   const randWordArr = [...randWord];
-  const char = character.value;
+  let char = character.value;
+
   let findChar = [];
 
   if (char === "" || char === " ") {
@@ -72,12 +73,15 @@ check.addEventListener("click", () => {
     for (let i = 0; i < randWordArr.length; i++) {
       const input = document.getElementById(i);
       const element = randWordArr[i];
+      
+      const lowerCaseChar = () =>
+        char.replace(/^(.)|\s+(.)/g, (c) => c.toLowerCase());
 
       findChar = randWordArr.filter((item, i) => {
-        return item.charAt(element) === char;
+        return item.charAt(element) === lowerCaseChar();
       });
 
-      if (char === element) {
+      if (lowerCaseChar() === element) {
         input.setAttribute("value", element);
       }
     }
