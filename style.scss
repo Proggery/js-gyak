@@ -27,8 +27,8 @@ body {
     align-items: center;
     position: relative;
 
-    // #word {
-      // input {
+    #word {
+      input {
       //   width: 70px;
       //   height: 70px;
       //   margin: 0 0.6rem;
@@ -38,16 +38,16 @@ body {
       //   border: none;
       //   border-bottom: 2px solid white;
 
-      //   @include devices(mobile) {
-      //     color: white;
+        @include devices(mobile) {
+          color: white;
       //     width: 25px;
       //     height: 25px;
       //     margin: 0 0.2rem;
       //     font-size: 1.6rem;
       //     background: white;
-      //   }
-      // }
-    // }
+        }
+      }
+    }
     #badCharsMobile {
       @include devices(mobile) {
         position: absolute;

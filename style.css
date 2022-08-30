@@ -25,6 +25,12 @@ body main {
 }
 
 @media only screen and (max-width: 576px) {
+  body main #word input {
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 576px) {
   body main #badCharsMobile {
     position: absolute;
     top: 1rem;
