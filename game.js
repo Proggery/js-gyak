@@ -48,7 +48,6 @@ btn.addEventListener("click", () => {
       input.id = i;
       input.setAttribute("name", element);
       input.disabled = true;
-      input.value.style;
 
       if (char === element) {
         input.setAttribute("value", element);
