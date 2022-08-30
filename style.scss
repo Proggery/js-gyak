@@ -27,7 +27,7 @@ body {
     align-items: center;
     position: relative;
 
-    #word {
+    // #word {
       // input {
       //   width: 70px;
       //   height: 70px;
@@ -47,7 +47,7 @@ body {
       //     background: white;
       //   }
       // }
-    }
+    // }
     #badCharsMobile {
       @include devices(mobile) {
         position: absolute;
