@@ -39,7 +39,7 @@ body {
         border-bottom: 2px solid white;
 
         @include devices(mobile) {
-          color: black;
+          color: white;
           width: 25px;
           height: 25px;
           margin: 0 0.2rem;
