@@ -4,10 +4,15 @@
   display: none;
 }
 
-// input {
-//   font-size: 4rem;
-//   text-align: center;
-// }
+input {
+  font-size: 4rem;
+  text-align: center;
+}
+
+input:disabled {
+  background-color: red !important;
+  color: white !important;
+}
 
 body {
   background: black;
@@ -28,16 +33,16 @@ body {
     position: relative;
 
     #word {
-      input[type="text"] {
-          width: 70px;
-          height: 70px;
-          margin: 0 0.6rem;
-          font-size: 4rem;
-          color: yellow !important;
-          background: transparent !important;
-          border: none !important;
-          border-bottom: 2px solid white !important;
-        
+      input {
+        width: 70px;
+        height: 70px;
+        margin: 0 0.6rem;
+        font-size: 4rem;
+        color: yellow;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid white;
+
         @include devices(mobile) {
           // color: black;
           // color: white;
