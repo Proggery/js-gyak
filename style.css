@@ -42,6 +42,7 @@ body main #word input {
 
 @media only screen and (max-width: 576px) {
   body main #word input {
+    color: yellow;
     width: 25px;
     height: 25px;
     margin: 0 0.2rem;
