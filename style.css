@@ -26,10 +26,13 @@ body main {
 
 body main #word {
   background: white;
+  color: black;
 }
 
-body main #word input {
-  -webkit-appearance: none;
+@media only screen and (max-width: 576px) {
+  body main #word input {
+    color: black;
+  }
 }
 
 @media only screen and (max-width: 576px) {

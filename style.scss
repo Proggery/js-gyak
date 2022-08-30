@@ -29,8 +29,8 @@ body {
 
     #word {
       background: white;
+      color: black;
       input {
-        -webkit-appearance: none;
         //   width: 70px;
         //   height: 70px;
         //   margin: 0 0.6rem;
@@ -39,8 +39,9 @@ body {
         //   background: transparent;
         //   border: none;
         //   border-bottom: 2px solid white;
-
+        
         @include devices(mobile) {
+          color: black;
           // color: white;
           //     width: 25px;
           //     height: 25px;
