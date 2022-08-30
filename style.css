@@ -24,6 +24,10 @@ body main {
   position: relative;
 }
 
+body main #word input {
+  -webkit-appearance: none;
+}
+
 @media only screen and (max-width: 576px) {
   body main #word input {
     background: white;
