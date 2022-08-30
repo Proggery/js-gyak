@@ -68,10 +68,22 @@ body main .win {
   font-weight: 800;
 }
 
+@media only screen and (max-width: 576px) {
+  body main .win {
+    font-size: 2rem;
+  }
+}
+
 body main .lost {
   color: red;
   font-size: 5rem;
   font-weight: 800;
+}
+
+@media only screen and (max-width: 576px) {
+  body main .lost {
+    font-size: 2rem;
+  }
 }
 
 body main .endText {
@@ -116,10 +128,9 @@ body main #checkWrapper input {
 
 @media only screen and (max-width: 576px) {
   body main #checkWrapper input {
-    width: 50px;
-    height: 50px;
-    font-size: 3rem;
-    color: yellow;
+    width: 80px;
+    height: 80px;
+    font-size: 2.5rem;
   }
 }
 
