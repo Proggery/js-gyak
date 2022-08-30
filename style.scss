@@ -37,13 +37,14 @@ body {
         background: transparent;
         border: none;
         border-bottom: 2px solid white;
-        
+
         @include devices(mobile) {
-          color: yellow;
+          color: black;
           width: 25px;
           height: 25px;
           margin: 0 0.2rem;
           font-size: 1.6rem;
+          background: white;
         }
       }
     }
@@ -65,18 +66,18 @@ body {
       font-size: 5rem;
       font-weight: 800;
 
-        @include devices(mobile) {
-          font-size: 2rem;
-        }
+      @include devices(mobile) {
+        font-size: 2rem;
       }
-      .lost {
-        color: red;
-        font-size: 5rem;
-        font-weight: 800;
+    }
+    .lost {
+      color: red;
+      font-size: 5rem;
+      font-weight: 800;
 
-        @include devices(mobile) {
-          font-size: 2rem;
-        }
+      @include devices(mobile) {
+        font-size: 2rem;
+      }
     }
     .endText {
       color: white;
