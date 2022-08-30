@@ -2,11 +2,6 @@
   display: none;
 }
 
-input {
-  font-size: 4rem;
-  text-align: center;
-}
-
 body {
   background: black;
 }
@@ -27,28 +22,6 @@ body main {
   justify-content: center;
   align-items: center;
   position: relative;
-}
-
-body main #word input {
-  width: 70px;
-  height: 70px;
-  margin: 0 0.6rem;
-  font-size: 4rem;
-  color: yellow;
-  background: transparent;
-  border: none;
-  border-bottom: 2px solid white;
-}
-
-@media only screen and (max-width: 576px) {
-  body main #word input {
-    color: white;
-    width: 25px;
-    height: 25px;
-    margin: 0 0.2rem;
-    font-size: 1.6rem;
-    background: white;
-  }
 }
 
 @media only screen and (max-width: 576px) {
